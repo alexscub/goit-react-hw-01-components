@@ -1,0 +1,10 @@
+.container {
+  background-color: #e7ecf2;
+  box-sizing: border-box;
+  padding: 6px;
+}
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}

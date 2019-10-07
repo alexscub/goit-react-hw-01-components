@@ -1,39 +1,40 @@
 .statsSection {
-    width: 268px;
-    margin: 0 auto;
-    box-sizing: border-box;
+  width: 268px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 .title {
-    color: #475965;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 70px;
-    margin: 0;
+  color: #475965;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 70px;
+  margin: 0;
 }
 .statList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .item {
-    display: inline-block;
-    width: 25%;
-    color: #ffffff;
-    padding: 10px 0;
+  display: inline-block;
+  width: 25%;
+  color: #ffffff;
+  padding: 10px 0;
 }
 .label {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    display: block;
-    text-align: center;
-    line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  line-height: 1.5;
 }
 .percentage {
-    composes: label;
-    font-weight: 400;
-    font-size: 18px;
+  composes: label;
+  font-weight: 400;
+  font-size: 18px;
 }

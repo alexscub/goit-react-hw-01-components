@@ -1,17 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
-//import classNames from 'classnames';
 
 const Profile = ({ user: { name, tag, location, avatar, stats } }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
-        <img
-          src={avatar}
-          alt="user avatar"
-          className={styles.avatar}
-        />
+        <img src={avatar} alt="user avatar" className={styles.avatar} />
         <p className={styles.name}>{name}</p>
         <p className={styles.tag}>{tag}</p>
         <p className={styles.location}>{location}</p>
@@ -32,8 +27,8 @@ const Profile = ({ user: { name, tag, location, avatar, stats } }) => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
 Profile.propTypes = {
   user: PropTypes.shape({
@@ -44,8 +39,8 @@ Profile.propTypes = {
     stats: PropTypes.shape({
       followers: PropTypes.number.isRequired,
       views: PropTypes.number.isRequired,
-      likes: PropTypes.number.isRequired
-    })
-  })
+      likes: PropTypes.number.isRequired,
+    }),
+  }).isRequired,
 };
-export default Profile
+export default Profile;

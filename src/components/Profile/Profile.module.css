@@ -1,70 +1,67 @@
 .profile {
-    width: 242px;
-    text-align: center;
-    margin: 0 auto;
-    box-sizing: border-box;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 1px 1px 2px 1px rgba(191,205,222,0.74);
-    font-family: 'Lato', sans-serif;
-
+  width: 242px;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 2px 1px rgba(191, 205, 222, 0.74);
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
 }
 .avatar {
-    width: 100px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 30px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
 }
 .description {
-    font-family: 'Lato', sans-serif;
-    padding: 30px;
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
 }
 .name {
-    font-weight: 700;
-    color: #122236;
-    font-size: 18px;
-    margin: 0 0 8px;
+  font-weight: 700;
+  color: #122236;
+  font-size: 18px;
+  margin: 0 0 8px;
 }
 .tag {
-    font-weight: 400;
-    font-size: 14px;
-    color: #768696;
-    margin: 0 0 8px;
-    
+  font-weight: 400;
+  font-size: 14px;
+  color: #768696;
+  margin: 0 0 8px;
 }
 .location {
-    composes: tag;
-    margin: 0;
+  composes: tag;
+  margin: 0;
 }
 .stats {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border-top: 1px solid #e4e9f0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #e4e9f0;
 }
 .stats li {
-    display: inline-block;
-    width: 80px;
-    background-color: #f3f6f9;
-    padding: 20px 0;
-    border-right: 1px solid #e4e9f0;
+  display: inline-block;
+  width: 80px;
+  background-color: #f3f6f9;
+  padding: 20px 0;
+  border-right: 1px solid #e4e9f0;
 }
 .stats li:last-child {
-    border-right: none;
+  border-right: none;
 }
-.label{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #768696;
-    line-height: 1.5;
-    display: block;
-    text-align: center;
+.label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #768696;
+  line-height: 1.5;
+  display: block;
+  text-align: center;
 }
 .quantity {
-    composes: label;
-    color: #122236;
-    font-weight: 900;
+  composes: label;
+  color: #122236;
+  font-weight: 900;
 }
-
-
