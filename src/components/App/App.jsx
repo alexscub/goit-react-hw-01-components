@@ -1,11 +1,11 @@
 import React from 'react';
-import Profile from './components/Profile/Profile';
-import Stats from './components/Stats/Stats';
-import FriendList from './components/FriendList/FriendList';
-import friends from './components/FriendList/friends.json';
-import transactions from './components/TransactionHistory/transactions.json';
-import TransactionHistory from './components/TransactionHistory/TransactionHistory';
-import styles from './index.module.css';
+import Profile from '../Profile/Profile';
+import Stats from '../Stats/Stats';
+import FriendList from '../FriendList/FriendList';
+import friends from '../../data/friends.json';
+import transactions from '../../data/transactions.json';
+import TransactionHistory from '../TransactionHistory/TransactionHistory';
+import styles from './App.module.css';
 
 const user = {
   name: 'Jacques Gluke',
@@ -25,7 +25,7 @@ const stats = [
   { id: 'id-4', label: '.psd', percentage: 47 },
 ];
 
-function App() {
+const App = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Profile component</h2>
